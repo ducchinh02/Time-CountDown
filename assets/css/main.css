@@ -1,0 +1,108 @@
+::selection {
+    background-color: #127c55;
+    color: #F2F2F2;
+}
+
+.disclaimer {
+    display: none;
+}
+
+body {
+    background-color: #24475B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container .heading {
+    font-size: 2.9rem;
+    text-align: center;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+
+.container .time-countdown {
+    color: #F2F2F2;
+    gap: 1.5rem 0;
+}
+
+.container .time-countdown .time-item {
+    position: relative;
+}
+
+.container .time-countdown .time {
+    font-size: 9.8rem;
+    background-color: #1BAA76;
+    padding: 3rem 0;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .time-countdown .title {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.container .time-countdown .separating {
+    font-size: 8.8rem;
+    position: absolute;
+    top: 40%;
+    right: -1rem;
+    transform: translateY(-59%);
+}
+
+.container .time-countdown .separating-black {
+    font-size: 6.8rem;
+    position: absolute;
+    top: 40%;
+    color: #24475B;
+    transform: translateY(-40%);
+}
+
+.container .time-countdown .s-left {
+    left: 2rem;
+}
+
+.container .time-countdown .s-right {
+    right: 2rem;
+}
+
+.container .time-countdown .line {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #24475B;
+    height: 0.7rem;
+}
+
+.container .time-countdown .circle {
+    position: absolute;
+    top: 50%;
+    background-color: #24475B;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.container .time-countdown .c-left {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.container .time-countdown .c-right {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 5rem 0;
+    }
+}

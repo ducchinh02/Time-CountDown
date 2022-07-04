@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Countdown</title>
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- css custom -->
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">TIME REMAINING</div>
+        <div class="row time-countdown text-center">
+            <!-- days -->
+            <div class="col-lg-3 col-md-6 col-12 time-item">
+                <div class="time"><span class=" days">5</span>
+                    <div class="line"></div>
+                    <div class="separating-black s-left">:</div>
+                    <div class="separating-black s-right">:</div>
+                    <div class="circle c-left"></div>
+                    <div class="circle c-right"></div>
+                </div>
+                <div class="separating d-none d-md-block">:</div>
+                <div class="title">days</div>
+            </div>
+            <!-- hour -->
+            <div class="col-lg-3 col-md-6 col-12 time-item">
+                <div class="time "><span class="hour">10</span>
+                    <div class="line"></div>
+                    <div class="separating-black s-left">:</div>
+                    <div class="separating-black s-right">:</div>
+                    <div class="circle c-left"></div>
+                    <div class="circle c-right"></div>
+                </div>
+                <div class="separating d-none d-lg-block">:</div>
+                <div class="title">HOURS</div>
+            </div>
+            <!-- min -->
+            <div class="col-lg-3 col-md-6 col-12 time-item">
+                <div class="time "><span class="min">20</span>
+                    <div class="line"></div>
+                    <div class="separating-black s-left">:</div>
+                    <div class="separating-black s-right">:</div>
+                    <div class="circle c-left"></div>
+                    <div class="circle c-right"></div>
+                </div>
+                <div class="separating d-none d-md-block">:</div>
+                <div class="title">MINUTES</div>
+            </div>
+            <!-- sec -->
+            <div class="col-lg-3 col-md-6 col-12 time-item">
+                <div class="time "><span class="sec">2</span>
+                    <div class="separating-black s-left">:</div>
+                    <div class="separating-black s-right">:</div>
+                    <div class="circle c-left"></div>
+                    <div class="circle c-right"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="title">SECONDS</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <!-- custom -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
